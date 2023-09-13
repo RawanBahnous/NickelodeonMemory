@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/3.jpg" />
+    <title>Nickelodeon Memo</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="col-nav">
+      <h2>Nickelodeon</h2>
+      <nav>
+        <ul>
+          <li>
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-house-door-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"
+                />
+              </svg>
+              Home</a
+            >
+          </li>
+          <li>
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-tv"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3l.024.001a1.46 1.46 0 0 1 .538.143.757.757 0 0 1 .302.254c.067.1.145.277.145.602v5.991l-.001.024a1.464 1.464 0 0 1-.143.538.758.758 0 0 1-.254.302c-.1.067-.277.145-.602.145H2.009l-.024-.001a1.464 1.464 0 0 1-.538-.143.758.758 0 0 1-.302-.254C1.078 10.502 1 10.325 1 10V4.009l.001-.024a1.46 1.46 0 0 1 .143-.538.758.758 0 0 1 .254-.302C1.498 3.078 1.675 3 2 3h11.991zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"
+                />
+              </svg>
+              About</a
+            >
+          </li>
+          <li>
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-camera-reels-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                <path d="M9 6a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                <path
+                  d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7z"
+                />
+              </svg>
+              Most Popular</a
+            >
+          </li>
+          <li>
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-chat-left-dots-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm5 4a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                />
+              </svg>
+              Contact</a
+            >
+          </li>
+          <li>
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-wechat"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.176 14.429c-2.665 0-4.826-1.8-4.826-4.018 0-2.22 2.159-4.02 4.824-4.02S16 8.191 16 10.411c0 1.21-.65 2.301-1.666 3.036a.324.324 0 0 0-.12.366l.218.81a.616.616 0 0 1 .029.117.166.166 0 0 1-.162.162.177.177 0 0 1-.092-.03l-1.057-.61a.519.519 0 0 0-.256-.074.509.509 0 0 0-.142.021 5.668 5.668 0 0 1-1.576.22ZM9.064 9.542a.647.647 0 1 0 .557-1 .645.645 0 0 0-.646.647.615.615 0 0 0 .09.353Zm3.232.001a.646.646 0 1 0 .546-1 .645.645 0 0 0-.644.644.627.627 0 0 0 .098.356Z"
+                />
+                <path
+                  d="M0 6.826c0 1.455.781 2.765 2.001 3.656a.385.385 0 0 1 .143.439l-.161.6-.1.373a.499.499 0 0 0-.032.14.192.192 0 0 0 .193.193c.039 0 .077-.01.111-.029l1.268-.733a.622.622 0 0 1 .308-.088c.058 0 .116.009.171.025a6.83 6.83 0 0 0 1.625.26 4.45 4.45 0 0 1-.177-1.251c0-2.936 2.785-5.02 5.824-5.02.05 0 .1 0 .15.002C10.587 3.429 8.392 2 5.796 2 2.596 2 0 4.16 0 6.826Zm4.632-1.555a.77.77 0 1 1-1.54 0 .77.77 0 0 1 1.54 0Zm3.875 0a.77.77 0 1 1-1.54 0 .77.77 0 0 1 1.54 0Z"
+                />
+              </svg>
+              Group Chat</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <!-- home -->
+      <section class="home">
+        <div class="contain-text">
+          <h1>
+            We Here To bring <br /><span> OUR Memories Back </span>
+
+            <button class="tour">TOUR MEmory</button>
+          </h1>
+        </div>
+        <div class="margin"></div>
+      </section>
+
+      <!-- about -->
+      <section class="about">
+        <h2>About Nickelodeon</h2>
+        <div class="margin"></div>
+        <hr />
+        <div class="margin"></div>
+
+        <p class="p">
+          Nickelodeon (often shortened to Nick) is an American pay television
+          channel which launched on April 1, 1979, as the first cable channel
+          for children. It is run by Paramount Global through its networks
+          division's Kids and Family Group.
+        </p>
+
+        <div class="margin"></div>
+
+        <h3>To See how much you remember</h3>
+        <div class="margin"></div>
+
+        <div class="row-containprice">
+          <aside class="quiz">
+            <div class="row-basic">
+              <h3>Basic Shows Test</h3>
+            </div>
+            <div class="row">
+              <h2>
+                Which character has a pet snail named Gary in "SpongeBob
+                SquarePants"?
+              </h2>
+              <p>
+                Patrick Star
+                <input type="radio" name="q1" value="" />
+              </p>
+              <p>
+                Sandy Cheeks
+                <input type="radio" name="q1" value="" />
+              </p>
+              <p>
+                SpongeBob SquarePants
+                <input type="radio" name="q1" value="" id="c1" />
+              </p>
+              <div class="clearfix"></div>
+            </div>
+            <div class="row">
+              <h2>
+                Hello Arnold Show : Has a secret crush on Arnold but also
+                "hates" him
+              </h2>
+
+              <p>
+                the girl Was in love with Arnold
+                <input type="radio" name="q2" id="" />
+              </p>
+              <p>
+                They hated each other
+                <input type="radio" name="q2" id="" />
+              </p>
+              <p>
+                Helga
+                <input type="radio" name="q2" id="c2" />
+              </p>
+              <div class="clearfix"></div>
+            </div>
+            <div class="row">
+              <h2>
+                What is the name of Ginger's best friend and neighbor in the
+                show?
+              </h2>
+
+              <p>
+                Macie Lightfoot
+                <input type="radio" name="q3" id="" />
+              </p>
+              <p>
+                Dodie Bishop
+                <input type="radio" name="q3" id="c3" />
+              </p>
+              <p>
+                Courtney Gripling
+                <input type="radio" name="q3" id="" />
+              </p>
+              <div class="clearfix"></div>
+            </div>
+            <div class="row">
+              <h2>
+                What is the name of Arnold's best friend in the show "Hey
+                Arnold!"?
+              </h2>
+              <p>
+                Gerald
+                <input type="radio" name="q4" id="c4" />
+              </p>
+              <p>
+                Helga
+                <input type="radio" name="q4" id="" />
+              </p>
+              <p>
+                Goddard
+                <input type="radio" name="q4" id="" />
+              </p>
+              <div class="clearfix"></div>
+            </div>
+            <div class="row">
+              <h2>
+                What is the name of the main character in "My Life as a Teenage
+                Robot"
+              </h2>
+              <p>
+                Jenny Wakeman/XJ-9
+                <input type="radio" name="q5" id="c5" />
+              </p>
+              <p>
+                Brad Carbunkle
+                <input type="radio" name="q5" id="" />
+              </p>
+              <p>
+                Tuck Carbunkle
+                <input type="radio" name="q5" id="" />
+              </p>
+              <div class="clearfix"></div>
+            </div>
+            <div class="row">
+              <button onclick="showResults()">Show Result</button>
+            </div>
+          </aside>
+          <aside class="result">
+            <div class="row-pro d-none">
+              <h3>Results</h3>
+
+              <p>Your Results was so close</p>
+              <div class="margin"></div>
+
+              <div class="skil-photo">
+                <div class="col1">
+                  <p style="color: aliceblue" class="result-p">%</p>
+                </div>
+                <div class="col2"></div>
+              </div>
+
+              <p>we Still Proud of You bro</p>
+              <img src="../images/2jpg.jpg" style="width: 100%" alt="" />
+            </div>
+
+            <div class="row-wow d-none">
+              <h3>Results</h3>
+
+              <p>Your Are Remembering So well!</p>
+              <div class="margin"></div>
+
+              <div class="skil-photo">
+                <div class="col1">
+                  <p style="color: aliceblue" class="result-p">%</p>
+                </div>
+                <div class="col2"></div>
+              </div>
+
+              <p>we Proud of You pro</p>
+              <img src="../images/1jpg.jpg" style="width: 100%" alt="" />
+            </div>
+
+            <div class="row-nothing d-none">
+              <h3>Results</h3>
+
+              <p>Hah! You Don't Remember Anything!</p>
+              <div class="margin"></div>
+
+              <div class="skil-photo">
+                <div class="col1">
+                  <p style="color: aliceblue" class="result-p">%</p>
+                </div>
+                <div class="col2"></div>
+              </div>
+
+              <p class="">Bruh go View some Ebic shows</p>
+              <img src="../images/5.jpg" style="width: 100%" alt="" />
+            </div>
+          </aside>
+          <div class="clearfix"></div>
+        </div>
+      </section>
+      <div class="margin"></div>
+
+      <!-- shows divs -->
+
+      <h2 style="color: aliceblue; padding-left: 30px">
+        Popular Shows
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-collection-play"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1zm2.765 5.576A.5.5 0 0 0 6 7v5a.5.5 0 0 0 .765.424l4-2.5a.5.5 0 0 0 0-.848l-4-2.5z"
+          />
+          <path
+            d="M1.5 14.5A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zm13-1a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-.5-.5h-13A.5.5 0 0 0 1 6v7a.5.5 0 0 0 .5.5h13z"
+          />
+        </svg>
+      </h2>
+      <div class="contain-shows">
+        <div class="col-show">
+          <img src="../images/1jpg.jpg" alt="" />
+          <h6>
+            Hekayat Genger
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-caret-right-square-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4v8z"
+              />
+            </svg>
+          </h6>
+          <p class="hidden-text">
+            ahla hekayat genger
+            <a href="">Watch NOW</a>
+          </p>
+        </div>
+        <div class="col-show">
+          <img src="../images/2jpg.jpg" alt="" />
+          <h6>
+            Hekayat Genger
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-caret-right-square-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4v8z"
+              />
+            </svg>
+          </h6>
+          <p class="hidden-text">
+            ahla hekayat genger
+            <a href="">Watch NOW</a>
+          </p>
+        </div>
+        <div class="col-show">
+          <img src="../images/4.jpg" alt="" />
+          <h6>
+            Hekayat Genger
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-caret-right-square-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4v8z"
+              />
+            </svg>
+          </h6>
+          <p class="hidden-text">
+            ahla hekayat genger
+            <a href="">Watch NOW</a>
+          </p>
+        </div>
+
+        <div class="clearfix"></div>
+      </div>
+      <div class="contain-shows">
+        <div class="col-show">
+          <img src="../images/1jpg.jpg" alt="" />
+          <h6>
+            Hekayat Genger
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-caret-right-square-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4v8z"
+              />
+            </svg>
+          </h6>
+          <p class="hidden-text">
+            ahla hekayat genger
+            <a href="">Watch NOW</a>
+          </p>
+        </div>
+        <div class="col-show">
+          <img src="../images/2jpg.jpg" alt="" />
+          <h6>
+            Hekayat Genger
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-caret-right-square-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4v8z"
+              />
+            </svg>
+          </h6>
+          <p class="hidden-text">
+            ahla hekayat genger
+            <a href="">Watch NOW</a>
+          </p>
+        </div>
+        <div class="col-show">
+          <img src="../images/4.jpg" alt="" />
+          <h6>
+            Hekayat Genger
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-caret-right-square-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4v8z"
+              />
+            </svg>
+          </h6>
+          <p class="hidden-text">
+            ahla hekayat genger
+            <a href="">Watch NOW</a>
+          </p>
+        </div>
+
+        <div class="clearfix"></div>
+      </div>
+
+      <!-- contact -->
+      <section class="contact">
+        <div class="transparent">
+          <h3>Contact Me</h3>
+          <div class="margin"></div>
+
+          <hr />
+
+          <div class="contain-form">
+            <h4>Let's get in touch. Send me a message:</h4>
+            <div class="row">
+              <input type="text" placeholder="Name" />
+            </div>
+            <div class="row">
+              <input type="email" name="" id="" placeholder="Email" />
+            </div>
+            <div class="row">
+              <input type="text" placeholder="Letter About" />
+            </div>
+            <div class="row">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div class="row">
+              <button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-send-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"
+                  />
+                </svg>
+                Send Message
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <div class="margin"></div>
+
+      <footer>
+        <p>&copy; saved for rawan</p>
+      </footer>
+    </main>
+
+    <script>
+      let correctAnswers = 0;
+      let resultSection = document.querySelector(".result-p");
+      let nothing = document.querySelector(".row-nothing");
+      let wow = document.querySelector(".row-wow");
+      let pro = document.querySelector(".row-pro");
+
+      function showResults() {
+        if (document.getElementById("c1").checked) {
+          correctAnswers++;
+          console.log(correctAnswers);
+        }
+        if (document.getElementById("c2").checked) {
+          correctAnswers++;
+          console.log(correctAnswers);
+        }
+        if (document.getElementById("c3").checked) {
+          correctAnswers++;
+          console.log(correctAnswers);
+        }
+        if (document.getElementById("c4").checked) {
+          correctAnswers++;
+          console.log(correctAnswers);
+        }
+        if (document.getElementById("c5").checked) {
+          correctAnswers++;
+        }
+        console.log(correctAnswers);
+
+        const percentage = (correctAnswers / 5) * 100;
+
+        if (correctAnswers > 4) {
+          nothing.classList.add("d-none");
+          pro.classList.add("d-none");
+          wow.classList.remove("d-none");
+        } else if (correctAnswers < 2) {
+          pro.classList.add("d-none");
+          wow.classList.add("d-none");
+          nothing.classList.remove("d-none");
+        } else {
+          wow.classList.add("d-none");
+          nothing.classList.add("d-none");
+          pro.classList.remove("d-none");
+        }
+
+        resultSection.innerHTML = `${percentage}% `;
+
+        document.querySelector('.quiz').style.display ="none";
+      }
+    </script>
+  </body>
+</html>
